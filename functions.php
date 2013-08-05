@@ -157,6 +157,15 @@ function bootstrapwp_widgets_init() {
     'after_title'   => '</h4>'
   ));
     register_sidebar(array(
+    'name' => 'Hero Right',
+    'id'   => 'hero-right',
+    'description'   => 'hero 2',
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>'
+  ));
+    register_sidebar(array(
     'name' => 'DAL Slogan Area',
     'id'   => 'slogan-area',
     'description'   => 'Area para el slogan del evento',
