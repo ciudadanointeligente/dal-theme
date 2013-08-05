@@ -12,6 +12,11 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
+
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/dal-theme/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/dal-theme/css/component.css" />
+    <script src="wp-content/themes/dal-theme/js/modernizr.custom.js"></script>
+
    <title><?php
   /*
    * Print the <title> tag based on what is being viewed.
@@ -67,6 +72,7 @@
           <?php
            /** Loading WordPress Custom Menu with Fallback to wp_list_pages **/
       wp_nav_menu( array( 'walker' => new bootstrapwp_walker_nav_menu(), 'menu' => 'main-menu', 'container_class' => 'nav-collapse', 'menu_class' => 'nav', 'menu_id' => 'main-menu')); ?>
+          <div class="year">2013</div>
         </div>
       </div>
     </div>
