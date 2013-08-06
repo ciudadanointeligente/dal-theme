@@ -37,8 +37,8 @@ get_header(); ?>
           </div>
 
 </div>  
-            <div class="blackbottom span"> 
-            </div>
+<!--             <div class="blackbottom span"> 
+            </div> -->
                 
 </header>
 
