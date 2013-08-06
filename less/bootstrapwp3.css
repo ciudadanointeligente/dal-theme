@@ -8205,11 +8205,18 @@ Overriding some defaults from the Bootstrap defaults to improve/fix integration 
   color: #ffffff;
   text-decoration: none;
 }
+
 .navbar .navbar-inner div.nav ul li.current_page_item a {
   color: #ffffff;
   text-decoration: none;
-  background-color: #030072;
+  background-color: #1E1647;
+  font-weight: lighter;
 }
+
+.navbar .navbar-inner div.nav ul li.current_page_item a:hover {
+  background-color: #221177;
+}
+
 /* Scrollspy Subnav Position Fix
 ----------------------------------------------------------------------------------------*/
 .subnav-fixed {
@@ -10424,13 +10431,6 @@ section.infoApp {
     width: 180px;
   }
 
-  .cbp-fwslider {
-    position: relative;
-    margin: -25px auto 0px;
-    overflow: hidden;
-    width: 87%;
-  }
-
 }
 
 @media (max-width: 979px) {
@@ -10442,6 +10442,15 @@ section.infoApp {
     margin: -10px;
   }
 }
+
+@media (max-width: 800px) and (min-width: 300px) {
+
+  .blackbottom {
+    display: none;
+  }
+
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
   .span3.sbPaisWrap {
     width: 225px;
