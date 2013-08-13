@@ -12,8 +12,8 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
-    <link rel="stylesheet" type="text/css" href="./css/component.css" />
-    <script src="./js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_directory') ?>/css/component.css" />
+    <script src="<?php echo bloginfo('template_directory') ?>/js/modernizr.custom.js"></script>
 
    <title><?php
   /*
