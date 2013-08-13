@@ -27,15 +27,8 @@ get_header(); ?>
                       if ( function_exists('dynamic_sidebar')) dynamic_sidebar("hero-right");
                   ?>
                 </div>
-<!--                 <div id="cbp-fwslider" class="cbp-fwslider">
-                  <ul>
-                    <li><a href="#"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/1.png" alt="img01"/></a></li>
-                    <li><a href="#"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/2.png" alt="img02"/></a></li>
-                    <li><a href="#"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/3.png" alt="img03"/></a></li>
-                  </ul>
-                </div> -->
 
-                <div id="myCarousel" class="carousel slide">
+                <div id="myCarousel" class="carousel slide" data-interval="100000">
                       <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>

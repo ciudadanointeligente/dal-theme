@@ -9709,7 +9709,8 @@ img {
 body {
   margin-top: 40px;
 }
-.navbar .nav > li > a {
+
+/*.navbar .nav > li > a {
   color: #D8D8D8;
   font-size: 1.1em;
   padding: 4px 9px;
@@ -9721,11 +9722,8 @@ body {
   border-radius: 4px;
   margin: 5px 4px;
   background: #222222;
-}
-.navbar .nav > li > a:hover {
-  background-color: #f7a81f;
-  color: #ffffff;
-}
+}*/
+
 .widget ul > li > a:hover {
   background-color: #ff424c;
 }
