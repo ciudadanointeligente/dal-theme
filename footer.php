@@ -78,7 +78,7 @@
 	 </footer>
 
 		<?php wp_footer(); ?>
-		<script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+		<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 
 
   </body>
