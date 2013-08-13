@@ -8256,10 +8256,6 @@ Overriding some defaults from the Bootstrap defaults to improve/fix integration 
   font-weight: lighter;
 }
 
-.navbar .navbar-inner div.nav ul li.current_page_item a:hover {
-  background-color: #221177;
-}
-
 /* Scrollspy Subnav Position Fix
 ----------------------------------------------------------------------------------------*/
 .subnav-fixed {
@@ -9128,73 +9124,7 @@ ol.comment-list li p.meta strong {
   width: 24px;
   height: 24px;
 }
-/*
-//flags 16
-.flag16-aaa{ background-position: 0 0; width: 16px; height: 16px; } 
-.flag16-ag{ background-position: 0 -66px; width: 16px; height: 16px; } 
-.flag16-ar{ background-position: 0 -132px; width: 16px; height: 16px; } 
-.flag16-bo{ background-position: 0 -198px; width: 16px; height: 16px; } 
-.flag16-br{ background-position: 0 -264px; width: 16px; height: 16px; } 
-.flag16-bz{ background-position: 0 -330px; width: 16px; height: 16px; } 
-.flag16-cl{ background-position: 0 -396px; width: 16px; height: 16px; } 
-.flag16-co{ background-position: 0 -462px; width: 16px; height: 16px; } 
-.flag16-cr{ background-position: 0 -528px; width: 16px; height: 16px; } 
-.flag16-cu{ background-position: 0 -594px; width: 16px; height: 16px; } 
-.flag16-dm{ background-position: 0 -660px; width: 16px; height: 16px; } 
-.flag16-do{ background-position: 0 -726px; width: 16px; height: 16px; } 
-.flag16-ec{ background-position: 0 -792px; width: 16px; height: 16px; } 
-.flag16-gd{ background-position: 0 -858px; width: 16px; height: 16px; } 
-.flag16-gt{ background-position: 0 -924px; width: 16px; height: 16px; } 
-.flag16-hn{ background-position: 0 -990px; width: 16px; height: 16px; } 
-.flag16-ht{ background-position: 0 -1056px; width: 16px; height: 16px; } 
-.flag16-jm{ background-position: 0 -1122px; width: 16px; height: 16px; } 
-.flag16-kn{ background-position: 0 -1188px; width: 16px; height: 16px; } 
-.flag16-lc{ background-position: 0 -1254px; width: 16px; height: 16px; } 
-.flag16-mx{ background-position: 0 -1320px; width: 16px; height: 16px; } 
-.flag16-ni{ background-position: 0 -1386px; width: 16px; height: 16px; } 
-.flag16-pa{ background-position: 0 -1452px; width: 16px; height: 16px; } 
-.flag16-pe{ background-position: 0 -1518px; width: 16px; height: 16px; } 
-.flag16-pr{ background-position: 0 -1584px; width: 16px; height: 16px; } 
-.flag16-py{ background-position: 0 -1650px; width: 16px; height: 16px; } 
-.flag16-sv{ background-position: 0 -1716px; width: 16px; height: 16px; } 
-.flag16-tt{ background-position: 0 -1782px; width: 16px; height: 16px; } 
-.flag16-uy{ background-position: 0 -1848px; width: 16px; height: 16px; } 
-.flag16-vc{ background-position: 0 -1914px; width: 16px; height: 16px; } 
-.flag16-ve{ background-position: -66px 0; width: 16px; height: 16px; } */
-/*
 
-.flag-aa
-.flag-antigua-and-barbuda	
-.flag-argentina	
-.flag-bolivia	
-.flag-brasil
-.flag-belize
-.flag-chile	
-.flag-colombia	
-.flag-costa-rica
-.flag-cuba	
-.flag-republica-dominicana	
-.flag-dominica	
-.flag-ecuador	
-.flag-grenada	
-.flag-guatemala
-.flag-honduras	
-.flag-haiti		
-.flag-jamaica	
-.flag-saint-kitts-and-nevis
-.flag-saint-lucia
-.flag-mexico	
-.flag-nicaragua	
-.flag-panama
-.flag-peru	
-.flag-puerto-rico	
-.flag-paraguay	
-.flag-el-salvador	
-.flag-trinidad-and-tobago
-.flag-uruguay	
-.flag-saint-vincent-and-the-grenadines	
-.flag-venezuela	
-*/
 .flag32 {
   background: url(../img/dal/flags32-sprite.png);
   width: 32px;
@@ -9709,23 +9639,16 @@ img {
 body {
   margin-top: 40px;
 }
-
-/*.navbar .nav > li > a {
+.navbar .nav > li > a {
   color: #D8D8D8;
   font-size: 1.1em;
   padding: 4px 9px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   margin: 5px 4px;
-  background: #222222;
-}*/
+  background-color: #1E1647;
+}
 
 .widget ul > li > a:hover {
-  background-color: #ff424c;
+  background-color: #221177;
 }
 .dalLinklist {
   margin-left: 0;
