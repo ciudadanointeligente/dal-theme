@@ -27,12 +27,29 @@ get_header(); ?>
                       if ( function_exists('dynamic_sidebar')) dynamic_sidebar("hero-right");
                   ?>
                 </div>
-                <div id="cbp-fwslider" class="cbp-fwslider">
+<!--                 <div id="cbp-fwslider" class="cbp-fwslider">
                   <ul>
                     <li><a href="#"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/1.png" alt="img01"/></a></li>
                     <li><a href="#"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/2.png" alt="img02"/></a></li>
                     <li><a href="#"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/3.png" alt="img03"/></a></li>
                   </ul>
+                </div> -->
+
+                <div id="myCarousel" class="carousel slide">
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                      <!-- Carousel items -->
+                      <div class="carousel-inner">
+                        <div class="active item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/1.png" alt="img01"/></div>
+                        <div class="item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/2.png" alt="img02"/></div>
+                        <div class="item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/3.png" alt="img03"/></div>
+                      </div>
+                      <!-- Carousel nav -->
+                      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
                 </div>
           </div>
 
@@ -82,23 +99,10 @@ get_header(); ?>
             <?php endwhile; endif; ?>
   </div>  
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="<?php echo bloginfo('template_directory') ?>/js/jquery.cbpFWSlider.min.js"></script>
     <script>
       $( function() {
-        /*
-        - how to call the plugin:
-        $( selector ).cbpFWSlider( [options] );
-        - options:
-        {
-          // default transition speed (ms)
-          speed : 500,
-          // default transition easing
-          easing : 'ease'
-        }
-        - destroy:
-        $( selector ).cbpFWSlider( 'destroy' );
-        */
 
         $( '#cbp-fwslider' ).cbpFWSlider();
 
@@ -112,6 +116,7 @@ else jQuery('.cbp-fwdots span:first-child').click();
 }, 4000);
 
     </script>
+  -->
 
 
 <?php get_footer();?>
