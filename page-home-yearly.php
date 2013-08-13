@@ -48,8 +48,8 @@ get_header(); ?>
                         <div class="item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/3.png" alt="img03"/></div>
                       </div>
                       <!-- Carousel nav -->
-                      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                      <!-- <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a> -->
                 </div>
           </div>
 
@@ -98,25 +98,6 @@ get_header(); ?>
     </div>  
             <?php endwhile; endif; ?>
   </div>  
-
-    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="<?php echo bloginfo('template_directory') ?>/js/jquery.cbpFWSlider.min.js"></script>
-    <script>
-      $( function() {
-
-        $( '#cbp-fwslider' ).cbpFWSlider();
-
-      } );
-
-      setInterval(function() {
-if(jQuery('.cbp-fwnext').css('display') != 'none'){
-jQuery('.cbp-fwnext').click();
-}
-else jQuery('.cbp-fwdots span:first-child').click();
-}, 4000);
-
-    </script>
-  -->
 
 
 <?php get_footer();?>
