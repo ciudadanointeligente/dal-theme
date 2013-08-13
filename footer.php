@@ -78,14 +78,7 @@
 	 </footer>
 
 		<?php wp_footer(); ?>
-		<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-		<script type="text/javascript">
-			// jQuery(document).ready(function($) {
-			// 	$('#myCarousel').carousel({
-			// 	  interval: 2000
-			// 	})
-			// });
-		</script>
+		
 
 
   </body>

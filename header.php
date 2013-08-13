@@ -36,7 +36,7 @@
 
   ?></title>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, target-densitydpi=medium-dpi"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="profile" href="http://gmpg.org/xfn/11" />
 
@@ -69,7 +69,7 @@
           <?php
            /** Loading WordPress Custom Menu with Fallback to wp_list_pages **/
       wp_nav_menu( array( 'walker' => new bootstrapwp_walker_nav_menu(), 'menu' => 'main-menu', 'container_class' => 'nav-collapse', 'menu_class' => 'nav', 'menu_id' => 'main-menu')); ?>
-          <div class="year">2013</div>
+          <div class="year visible-desktop">2013</div>
         </div>
       </div>
     </div>

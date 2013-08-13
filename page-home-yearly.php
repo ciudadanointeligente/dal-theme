@@ -28,7 +28,7 @@ get_header(); ?>
                   ?>
                 </div>
 
-                <div id="myCarousel" class="carousel slide" data-interval="100000">
+                <div id="myCarousel" class="carousel slide">
                       <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -36,9 +36,9 @@ get_header(); ?>
                       </ol>
                       <!-- Carousel items -->
                       <div class="carousel-inner">
-                        <div class="active item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/1.png" alt="img01"/></div>
-                        <div class="item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/2.png" alt="img02"/></div>
-                        <div class="item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/3.png" alt="img03"/></div>
+                        <div class="active item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/llega-a-las-estrellas-con-tu-emprendimiento.png" alt="llega a las estrellas con tu emprendimiento"/></div>
+                        <div class="item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/llevemos-el-impacto-social-al-siguiente-nivel.png" alt="llevemos el impacto social al siguiente nivel"/></div>
+                        <div class="item"><img src="<?php echo bloginfo('template_directory') ?>/img/slider/compartamos-ideas.png" alt="compartamos ideas"/></div>
                       </div>
                       <!-- Carousel nav -->
                       <!-- <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>

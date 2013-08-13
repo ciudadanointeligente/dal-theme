@@ -6015,7 +6015,7 @@ a.badge:hover {
 .carousel-indicators {
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 145px;
   z-index: 5;
   margin: 0;
   list-style: none;
