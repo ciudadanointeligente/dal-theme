@@ -29,9 +29,9 @@ get_header(); ?>
                 </div>
                 <div id="cbp-fwslider" class="cbp-fwslider">
                   <ul>
-                    <li><a href="#"><img src="wp-content/themes/dal-theme/img/slider/1.png" alt="img01"/></a></li>
-                    <li><a href="#"><img src="wp-content/themes/dal-theme/img/slider/2.png" alt="img02"/></a></li>
-                    <li><a href="#"><img src="wp-content/themes/dal-theme/img/slider/3.png" alt="img03"/></a></li>
+                    <li><a href="#"><img src="./img/slider/1.png" alt="img01"/></a></li>
+                    <li><a href="#"><img src="./img/slider/2.png" alt="img02"/></a></li>
+                    <li><a href="#"><img src="./img/slider/3.png" alt="img03"/></a></li>
                   </ul>
                 </div>
           </div>
@@ -83,7 +83,7 @@ get_header(); ?>
   </div>  
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="wp-content/themes/dal-theme/js/jquery.cbpFWSlider.min.js"></script>
+    <script src="./js/jquery.cbpFWSlider.min.js"></script>
     <script>
       $( function() {
         /*

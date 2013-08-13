@@ -12,10 +12,8 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
-
-    <link rel="stylesheet" type="text/css" href="wp-content/themes/dal-theme/css/default.css" />
-    <link rel="stylesheet" type="text/css" href="wp-content/themes/dal-theme/css/component.css" />
-    <script src="wp-content/themes/dal-theme/js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/component.css" />
+    <script src="./js/modernizr.custom.js"></script>
 
    <title><?php
   /*
