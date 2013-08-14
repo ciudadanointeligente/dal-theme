@@ -6014,8 +6014,8 @@ a.badge:hover {
 
 .carousel-indicators {
   position: absolute;
-  top: 15px;
-  right: 145px;
+  top: 25px;
+  right: 130px;
   z-index: 5;
   margin: 0;
   list-style: none;
@@ -6029,13 +6029,13 @@ a.badge:hover {
   margin-left: 5px;
   text-indent: -999px;
   background-color: #ccc;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #fff;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .carousel-indicators .active {
-  background-color: #fff;
+  background-color: #00ff00;
 }
 
 .carousel-caption {
